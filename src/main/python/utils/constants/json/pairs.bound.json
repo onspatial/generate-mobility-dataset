@@ -1,0 +1,12 @@
+{
+    "appetiteLowerBound": "appetiteUpperBound",
+    "resChargeLowerBound": "resChargeUpperBound",
+    "pubChargeLowerBound": "pubChargeUpperBound",
+    "attractivenessLowerBound": "attractivenessUpperBound",
+    "apartmentRoomNumberLowerBound": "apartmentRoomNumberUpperBound",
+    "numOfJobsAtWorkplaceLowerBound": "numOfJobsAtWorkplaceUpperBound",
+    "initialAdditionalBalanceLowerBound": "initialAdditionalBalanceUpperBound",
+    "minimumSiteVisitLengthInMinutes": "maximumSiteVisitLengthInMinutes",
+    "minimumHourlyRate": "maximumHourlyRate",
+    "minSocialStatusValue": "maxSocialStatusValue"
+}

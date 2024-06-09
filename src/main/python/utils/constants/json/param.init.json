@@ -1,0 +1,25 @@
+{
+    "properties": {
+        "numOfAgents": 0,
+        "agentWalkingSpeed": 0,
+        "baseRentRate": 0,
+        "maxNumOfFriends": 0,
+        "numApartmentsPer1000": 0,
+        "numWorkplacesPer1000": 0,
+        "numRestaurantsPer1000": 0,
+        "minimumHourlyRate": 0,
+        "maximumHourlyRate": 0,
+        "maxGroupMeetingSize": 0,
+        "appetiteLowerBound": 0,
+        "appetiteUpperBound": 0,
+        "minimumSiteVisitLengthInMinutes": 0,
+        "maximumSiteVisitLengthInMinutes": 0,
+        "maxDaysToBeStarving": 0,
+        "maxDaysToBeHomeless": 0,
+        "maps": "maps/nola/map",
+        "seed": 0
+    },
+    "score": 0.0,
+    "id": "id_constants_init",
+    "type": "check"
+}

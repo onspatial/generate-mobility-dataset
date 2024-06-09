@@ -1,0 +1,18 @@
+{
+    "maximumAllowedRentalSalaryRatio": 0.3333,
+    "focalClosureProbability": 0.0025,
+    "cyclicClosureProbability": 0.01,
+    "initialNetworkEdgeWeight": 0.01,
+    "networkEdgeDecayFactor": 0.7,
+    "networkEdgeWeightStrengtheningRate": 0.04,
+    "networkEdgeDeletionThreshold": 0.001,
+    "appetiteLowerBound": 0.2,
+    "appetiteUpperBound": 0.9,
+    "initialSocialStatusWeight": 0.5,
+    "socialStatusDecayFactor": 0.8,
+    "minSocialStatusValue": 0.01,
+    "socialStatusIncreaseValue": 0.07,
+    "socialStatusDecreaseValue": 0.03,
+    "attractivenessLowerBound": 0.0,
+    "pubChoiceExponentialDecayConstant": 0.55
+}

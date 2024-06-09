@@ -1,0 +1,30 @@
+{
+    "numWorkplacesPer1000": {
+        "min": 0,
+        "max": 1001
+    },
+    "numApartmentsPer1000": {
+        "min": 0,
+        "max": 1001
+    },
+    "numPubsPer1000": {
+        "min": 0,
+        "max": 1001
+    },
+    "numRestaurantsPer1000": {
+        "min": 0,
+        "max": 1001
+    },
+    "numOfSingleAgentsPer1000": {
+        "min": 0,
+        "max": 1001
+    },
+    "numOfFamilyAgentsWithKidsPer1000": {
+        "min": 0,
+        "max": 1001
+    },
+    "workHoursPerDay": {
+        "min": 3,
+        "max": 18
+    }
+}
