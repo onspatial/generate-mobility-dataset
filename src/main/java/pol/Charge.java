@@ -1,4 +1,4 @@
-package pol;
+package edu.emory.amiri.life;
 
 import org.joda.time.LocalDateTime;
 

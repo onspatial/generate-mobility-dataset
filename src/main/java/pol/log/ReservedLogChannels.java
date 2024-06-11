@@ -96,7 +96,7 @@ public class ReservedLogChannels implements Serializable {
 		ConcurrentMap<Level, Setting> instance = new ConcurrentHashMap<>();
 		// ADD ALL
 		// system level logging
-		instance.putIfAbsent(Level.getLevel("INFO"), new Setting("patterns_of_life",
+		instance.putIfAbsent(Level.getLevel("INFO"), new Setting("pattenrs_of_life",
 				"info level logging", "RollingFile", DEFAULT_DIRECTORY, ".log"));
 		// If you want flexibility, add -Dsimulation.test=flexibility
 		String whatTest = System.getProperty(TEST_PROPERTY_NAME);
@@ -180,8 +180,6 @@ public class ReservedLogChannels implements Serializable {
 			instance.putIfAbsent(Level.getLevel("AGENT5"), new Setting("Checkin", "Checkin", "RollingFile"));
 			instance.putIfAbsent(Level.getLevel("AGENT6"),
 					new Setting("SocialNetwork", "SocialNetwork", "RollingFile"));
-			instance.putIfAbsent(Level.getLevel("AGENT"), new Setting("AgentStateTable", "AgentStates", "RollingFile"));
-
 		}
 		return instance;
 	}
