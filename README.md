@@ -29,10 +29,20 @@ This Youtube video provides a demonstration of the headless simulation: [Running
 
 1. ## Customize the Map and the Simulation Parameters
 
+### New Map:
+The simulation uses a map to simulate the agents' movement. The map is stored in three different shapefiles: `buildings.shp`, `walkways.shp`, and `buildingUnits.shp`. You can generate any mpa by using the documentation on the [maps.md](documentation/maps.md) file. 
+You can use the QGIS software to visualize and edit the map or we developed a python script to generate the map. The script is shown in the [maps.py](src/main/python/code/maps.py) file. 
+
+This is a simple example of how to generate a map using the script:
+```python
+output_folder = 'data/maps/test'
+bounding_box = [-84.41213984, 33.72878582, -84.36418537, 33.76304255]
+pqgis.generate_map(bounding_box, output_folder, new_map=True)
+```
+### Simulation Parameters:
+The simulation parameters are stored in the [parameters.properties](parameters.properties) file. You can customize the simulation parameters by modifying this file. The parameters are used to specify the agents' behavior, the map, etc.
 
 1. ## Performance Improvement and Parallelization
-
-
 
 
 
