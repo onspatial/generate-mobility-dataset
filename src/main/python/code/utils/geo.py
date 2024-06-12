@@ -1,4 +1,3 @@
-import json
 def get_bounding_box(map_name):
     if map_name=='atl-metro':
         return [-84.5505285, 33.64708314, -84.28945431, 33.88663263]
@@ -20,6 +19,8 @@ def get_bounding_box(map_name):
 
     elif map_name=='sfco':
         return [-122.51419799, 37.70829506, -122.35784432, 37.8108725 ]
-
-    else :
-        return [-84.41213984, 33.72878582, -84.36418537, 33.76304255]
+    
+    elif map_name=='test':
+        return [-84.41213984, 33.72878582, -84.39418537, 33.73304255]
+    else:
+        return [-84.41213984, 33.72878582, -84.39418537, 33.73304255]

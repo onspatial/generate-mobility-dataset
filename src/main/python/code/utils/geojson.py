@@ -11,5 +11,5 @@ def get_walkways_geojson(bounding_box):
 
 def get_geojson_from_overpass(overpass_query):
     api = overpass.API()
-    response = api.get(overpass_query,responseformat = "geojson",     verbosity = "geom")
+    response = api.get(overpass_query,responseformat = "geojson", verbosity = "geom")
     return response
