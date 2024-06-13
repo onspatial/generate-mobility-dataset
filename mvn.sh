@@ -14,4 +14,4 @@ mvn clean install
 
 mkdir -p jar
 cp target/pol-0.2-jar-with-dependencies.jar jar/pol.jar
-rm -rf target
+# rm -rf target

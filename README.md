@@ -1,5 +1,11 @@
 # The Pattern of Life Human Mobility Simulation (Demo Paper)
 
+## YouTube Videos 
+- [Running the Graphical User Interface (GUI)](https://youtu.be/YaabLKM4mxQ)
+- [Running the Headless Simulation (Data Generation)](https://youtu.be/oFIu5CAjnnc)
+- [ Customize the map and generate a new map from overpass using python or QGIS ](https://youtu.be/YwuOIQZ_jBk)
+
+
 ## Theory and Background
 This simulation models the Maslowian needs of agents (i.e., people) which drive agents’ actions and behaviors:Agents need to go home to find shelter overnight; Agents need togo to work to make money (i.e., financial balance); Agents need togo to restaurants to eat; and Agents need to go to recreational sites to meet friends and sustain their social network. Many more facets of the logic driving the behavior of agents in the Patterns of Life simulation can be found in: [Urban life: a model of people and places](https://link.springer.com/article/10.1007/s10588-021-09348-7).
 
@@ -39,7 +45,7 @@ output_folder = 'data/maps/test'
 bounding_box = [-84.41213984, 33.72878582, -84.36418537, 33.76304255]
 pqgis.generate_map(bounding_box, output_folder, new_map=True)
 ```
-
+This Youtube video provides a demonstration of how to generate a new map using both QGIS and the python script: [ Customize the map and generate a new map from overpass using python or QGIS ](https://youtu.be/YwuOIQZ_jBk).
 
 ### Simulation Parameters:
 The simulation parameters are stored in the [parameters.properties](parameters.properties) file. You can customize the simulation parameters by modifying this file. It is recommended to use another file to modify the parameters and keep the original file unchanged as a reference and default parameters. 
@@ -59,6 +65,8 @@ This is the run.sh script with the modified file:
 ```bash
 java -Dlog4j2.configurationFactory=pol.log.CustomConfigurationFactory -Dlog.rootDirectory=data -Dsimulation.test=all -jar ../jar/pol.jar -configuration modified.properties -until 2880
 ```
+
+This Youtube video provides a demonstration of how to customize the simulation parameters: [Customize the simulation parameters](https://youtu.be/IDG7sjz5JwE).
 
 ## Dataset Generation
 After the simulation is run, the data is stored in the directory specified in the `-Dlog.rootDirectory` option. When data is generated, the simulation will split them into different files based on their size. Some logs store more features and might need to be cut from the dataset. For example, the `agentStateTable.tsv` file stores the state of each agent at each time step. This file can be very large and might need to be cut into smaller files. To generate the trajectory of each agent, we need to cut the location, time and agent ID from the `agentStateTable.tsv` file. 
