@@ -1,10 +1,10 @@
-package edu.emory.amiri.life;
+package pol;
 
 import org.joda.time.LocalTime;
 
-import edu.emory.amiri.life.log.Skip;
-import edu.emory.amiri.life.log.State;
-import edu.emory.amiri.life.utils.DateTimeUtil;
+import pol.log.Skip;
+import pol.log.State;
+import pol.utils.DateTimeUtil;
 
 /**
  * General description_________________________________________________________

@@ -1,4 +1,4 @@
-package edu.emory.amiri.life;
+package pol;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,9 +14,9 @@ import org.apache.commons.configuration2.convert.DefaultListDelimiterHandler;
 import org.apache.commons.configuration2.ex.ConfigurationException;
 import org.joda.time.LocalDateTime;
 
-import edu.emory.amiri.life.log.Skip;
-import edu.emory.amiri.life.utils.CustomConversionHandler;
-import edu.emory.amiri.life.utils.SimulationTimeStepSetting;
+import pol.log.Skip;
+import pol.utils.CustomConversionHandler;
+import pol.utils.SimulationTimeStepSetting;
 
 /**
  * General description_________________________________________________________

@@ -1,4 +1,4 @@
-package edu.emory.amiri.life;
+package pol;
 
 import java.awt.Color;
 import java.awt.Graphics2D;
@@ -17,11 +17,11 @@ import org.joda.time.DateTime;
 import at.granul.mason.ChartedGUIState;
 import at.granul.mason.collector.DataCollector;
 import at.granul.mason.inspector.TitledSimpleInspector;
-import edu.emory.amiri.life.gui.CustomDataCollectorChart;
-import edu.emory.amiri.life.utils.ColorUtils;
-import edu.emory.amiri.life.utils.DateTimeUtil;
-import edu.emory.amiri.life.utils.SimulationEvent;
-import edu.emory.amiri.life.utils.SupplierHUD;
+import pol.gui.CustomDataCollectorChart;
+import pol.utils.ColorUtils;
+import pol.utils.DateTimeUtil;
+import pol.utils.SimulationEvent;
+import pol.utils.SupplierHUD;
 import sim.display.Controller;
 import sim.display.Display2D;
 import sim.engine.SimState;

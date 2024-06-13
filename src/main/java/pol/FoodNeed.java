@@ -1,18 +1,18 @@
-package edu.emory.amiri.life;
+package pol;
 
 import org.joda.time.Days;
 import org.joda.time.LocalDateTime;
 import org.joda.time.LocalTime;
 import org.joda.time.Minutes;
 
-import edu.emory.amiri.life.environment.AgentMobility;
-import edu.emory.amiri.life.environment.Pub;
-import edu.emory.amiri.life.environment.Restaurant;
-import edu.emory.amiri.life.environment.Travel;
-import edu.emory.amiri.life.log.Characteristics;
-import edu.emory.amiri.life.log.ExtLogger;
-import edu.emory.amiri.life.log.Skip;
-import edu.emory.amiri.life.log.State;
+import pol.environment.AgentMobility;
+import pol.environment.Pub;
+import pol.environment.Restaurant;
+import pol.environment.Travel;
+import pol.log.Characteristics;
+import pol.log.ExtLogger;
+import pol.log.Skip;
+import pol.log.State;
 
 /**
  * General description_________________________________________________________

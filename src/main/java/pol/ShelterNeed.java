@@ -1,4 +1,4 @@
-package edu.emory.amiri.life;
+package pol;
 
 import java.util.Comparator;
 import java.util.List;
@@ -8,16 +8,16 @@ import java.util.stream.Stream;
 import org.joda.time.Days;
 import org.joda.time.LocalDateTime;
 
-import edu.emory.amiri.life.environment.Apartment;
-import edu.emory.amiri.life.environment.Building;
-import edu.emory.amiri.life.environment.BuildingType;
-import edu.emory.amiri.life.environment.BuildingUnit;
-import edu.emory.amiri.life.environment.Classroom;
-import edu.emory.amiri.life.environment.SpatialNetwork;
-import edu.emory.amiri.life.log.Skip;
-import edu.emory.amiri.life.log.State;
-import edu.emory.amiri.life.utils.CollectionUtil;
-import edu.emory.amiri.life.utils.GeoUtils;
+import pol.environment.Apartment;
+import pol.environment.Building;
+import pol.environment.BuildingType;
+import pol.environment.BuildingUnit;
+import pol.environment.Classroom;
+import pol.environment.SpatialNetwork;
+import pol.log.Skip;
+import pol.log.State;
+import pol.utils.CollectionUtil;
+import pol.utils.GeoUtils;
 import sim.util.geo.MasonGeometry;
 
 /**

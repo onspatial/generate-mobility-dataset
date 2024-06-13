@@ -31,7 +31,7 @@ This Youtube video provides a demonstration of the headless simulation: [Running
 
 ### New Map:
 The simulation uses a map to simulate the agents' movement. The map is stored in three different shapefiles: `buildings.shp`, `walkways.shp`, and `buildingUnits.shp`. You can generate any mpa by using the documentation on the [maps.md](documentation/maps.md) file. 
-You can use the QGIS software to visualize and edit the map or we developed a python script to generate the map. The script is shown in the [maps.py](src/main/python/code/maps.py) file. 
+You can use the QGIS software to visualize and edit the map or we developed a python script to generate the map. The script is shown in the [maps.py](src/main/python/code/map_generation/maps.py) file. 
 
 This is a simple example of how to generate a map using the script:
 ```python
@@ -60,13 +60,17 @@ This is the run.sh script with the modified file:
 java -Dlog4j2.configurationFactory=pol.log.CustomConfigurationFactory -Dlog.rootDirectory=data -Dsimulation.test=all -jar ../jar/pol.jar -configuration modified.properties -until 2880
 ```
 
+## Dataset Generation
+After the simulation is run, the data is stored in the directory specified in the `-Dlog.rootDirectory` option. When data is generated, the simulation will split them into different files based on their size. Some logs store more features and might need to be cut from the dataset. For example, the `agentStateTable.tsv` file stores the state of each agent at each time step. This file can be very large and might need to be cut into smaller files. To generate the trajectory of each agent, we need to cut the location, time and agent ID from the `agentStateTable.tsv` file. 
+This data processing can be done using the [integrate.py](src/main/python/code/data_generation/integrate.py) script. This script will generate the trajectory of each agent and store it in a new file.
+
 ## Performance Improvement and Parallelization
 
 To improve the performance and accelerate the data generation process, we make the simulation more efficient by making some changes to the simulation code without changing the simulation logic. 
 
 The simulation itself is not parallelized, but we can run multiple instances of the simulation in parallel to generate the data with different parameters or the same parameters.
 
-This is an example of how to run the simulation in parallel using the [parallel.py](src/main/python/code/parallelization/parallel.py) script:
+This is an example of how to run the simulation in parallel using the [parallel.py](src/main/python/code/data_generation/parallel.py) script:
 
 ```python
 input_parameters = get_initial_parameters()

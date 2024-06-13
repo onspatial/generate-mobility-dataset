@@ -1,4 +1,4 @@
-package edu.emory.amiri.life;
+package pol;
 
 /**
  * General description_________________________________________________________
