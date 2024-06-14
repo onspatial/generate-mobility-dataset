@@ -83,10 +83,10 @@ The simulation itself is not parallelized, but we can run multiple instances of 
 This is an example of how to run the simulation in parallel using the [parallel.py](src/main/python/code/data_generation/parallel.py) script:
 
 ```python
-input_parameters = get_initial_parameters()
-configured_params = get_configured_params(input_parameters)
-simulated_params = run(configured_params, fork_join=False, parallel=8)
-save_params_to_file(simulated_params, f"results/params.simulated.json")
+input_parameters = params.get_from_json('params.init.json')
+input_parameters = params.add_id_to_params(input_parameters, "input")
+simulated_params = run(input_parameters, fork_join=False, check_time=100, parallel=8)
+params.save_params_to_file(simulated_params, f"params.simulated.json")
 print("Results Generated successfully!")
 ```
 
