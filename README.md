@@ -5,6 +5,7 @@
 - [Running the Headless Simulation (Data Generation)](https://youtu.be/oFIu5CAjnnc)
 - [ Customize the map and generate a new map from overpass using python or QGIS ](https://youtu.be/YwuOIQZ_jBk)
 - [Customize the simulation parameters](https://youtu.be/IDG7sjz5JwE)
+- [Running the simulation in parallel](https://youtu.be/aBgjLmmpMd4)
 
 
 
@@ -89,6 +90,8 @@ simulated_params = run(input_parameters, fork_join=False, check_time=100, parall
 params.save_params_to_file(simulated_params, f"params.simulated.json")
 print("Results Generated successfully!")
 ```
+
+This Youtube video provides a demonstration of how to run the simulation in parallel: [Running the simulation in parallel](https://youtu.be/aBgjLmmpMd4).
 
 ##  Performance Evaluation
 

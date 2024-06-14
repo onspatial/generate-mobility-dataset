@@ -219,8 +219,9 @@ def configure_agent_numbers(input_params):
             temp['properties'] = {}
             temp['properties'].update(param['properties'])
             temp['properties']['numOfAgents'] = agent_number
-            temp['score'] = param['score']
-            temp['previous_score'] = param['score']
+            if 'score' in param:
+                temp['score'] = param['score']
+                temp['previous_score'] = param['score']
             temp['end_time'] = end_times[agent_number]
             configured_params += [temp]       
     return configured_params

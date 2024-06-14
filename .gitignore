@@ -1,2 +1,8 @@
 data/*
 headless/data/*
+src/main/python/city
+src/main/python/pol/maps/
+src/main/python/pol/maps/*
+target/*
+src/main/python/tmp/*
+src/main/python/trash/*
