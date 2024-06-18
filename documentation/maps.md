@@ -1,5 +1,5 @@
 # New Map Creation Guide
-You can use the source code in [maps.py](src/main/python/code/map_generation/maps.py) to create map programmatically or follow the instructions in below to create a map manually. [video](https://youtu.be/YwuOIQZ_jBk)
+You can use the source code in [maps.py](src/main/python/code/map_generation/maps.py) to create map programmatically or follow the instructions in below to create a map manually. ([YouTube Video](https://youtu.be/YwuOIQZ_jBk))
 
 The simulation needs three files for a map and each of these files carries specific information; the `buildings.shp` file contains building footprints, the `buildingUnits.shp` file holds details about building units, and the `walkways.shp` file provides information on the transportation network.
 
