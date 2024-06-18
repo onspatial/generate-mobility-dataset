@@ -1,5 +1,5 @@
 # New Map Creation Guide
-You can use the source code in [maps.py](src/main/python/code/map_generation/maps.py) to create map programmatically or follow the instructions below to create a map manually.
+You can use the source code in [maps.py](src/main/python/code/map_generation/maps.py) to create map programmatically or follow the instructions in below to create a map manually. [video](https://youtu.be/YwuOIQZ_jBk)
 The simulation needs three files for a map and each of these files carries specific information; the `buildings.shp` file contains building footprints, the `buildingUnits.shp` file holds details about building units, and the `walkways.shp` file provides information on the transportation network.
 
 The instructions below were adhered to in order to create the Atlanta map. It's crucial to mention that other applications and resources are available for extracting and modifying Open Street Map (OSM) data. Importantly, the feature set needs to be compatible with the simulation, and the data type should be consistent with what we describe here.
