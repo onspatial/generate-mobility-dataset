@@ -1,9 +1,10 @@
 # The Pattern of Life Human Mobility Simulation (Demo Paper)
 
 - Comparision of POL with real world data: 
-![image](https://github.com/user-attachments/assets/7f2d5248-8887-4461-a2ee-4d1539f16b66)
+<img src="https://github.com/user-attachments/assets/7f2d5248-8887-4461-a2ee-4d1539f16b66" alt="Description of Image" width="300" height="200">
 
-![image](https://github.com/user-attachments/assets/cf922562-7c23-4f15-a5cf-8d325f4395fe)
+<img src="[https://github.com/user-attachments/assets/7f2d5248-8887-4461-a2ee-4d1539f16b66](https://github.com/user-attachments/assets/cf922562-7c23-4f15-a5cf-8d325f4395fe)" alt="Description of Image" width="300" height="200">
+
 
 
 ## YouTube Videos - Silent Video; Live Demonstration after Acceptance
