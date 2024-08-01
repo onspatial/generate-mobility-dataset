@@ -3,7 +3,7 @@
 - Comparision of POL with real world data:
 
     
-<div>
+
     <div style="display:inline-block; ">
         <img src="https://github.com/user-attachments/assets/7f2d5248-8887-4461-a2ee-4d1539f16b66" alt="Pattern of life simulation data" style="width: 512px; height: 512px;">
         <p>The above chart presents the Pattern of life simulation data</p>
@@ -12,7 +12,7 @@
         <img src="https://github.com/user-attachments/assets/7664d1e7-6dad-4336-8068-7d5605d9e3bb" alt="Travel survey realworld" style="width: 512px; height: 512px;">
         <p>This is Travel survey that is drawn from realworld data</p>
     </div>
-</div>
+
 
 
 
