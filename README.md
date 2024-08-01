@@ -1,8 +1,8 @@
 # The Pattern of Life Human Mobility Simulation (Demo Paper)
 
 - Comparision of POL with real world data:
-
-<div style="display: flex; justify-content: center; align-items: center; flex-direction: row; margin-top: 20px;">
+  
+<div style="display: flex; justify-content: center; align-items: flex-start; flex-direction: row; margin-top: 20px;">
     <div style="text-align: center; margin: 0 20px;">
         <img src="https://github.com/user-attachments/assets/7f2d5248-8887-4461-a2ee-4d1539f16b66" alt="Description of Image" width="512" height="512">
         <p>Pattern of life simulation data</p>
