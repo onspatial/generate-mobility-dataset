@@ -6,11 +6,11 @@
 <div style="display: flex; justify-content: center; align-items: flex-start; flex-direction: row; margin-top: 20px;">
     <div style="text-align: center;flex; justify-content: center; align-items: flex-start; flex-direction: row; margin-top: 20px;">
         <img src="https://github.com/user-attachments/assets/7f2d5248-8887-4461-a2ee-4d1539f16b66" alt="Pattern of life simulation data" style="width: 512px; height: 512px;">
-        <p>Pattern of life simulation data</p>
+        <p>The chart presents the Pattern of life simulation data</p>
     </div>
     <div style="text-align: center; margin: 0 20px;">
         <img src="https://github.com/user-attachments/assets/7664d1e7-6dad-4336-8068-7d5605d9e3bb" alt="Travel survey realworld" style="width: 512px; height: 512px;">
-        <p>Travel survey realworld</p>
+        <p>This is Travel survey that is drawn from realworld data</p>
     </div>
 </div>
 
