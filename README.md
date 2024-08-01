@@ -3,7 +3,7 @@
 - Comparision of POL with real world data:
 
     
-<div style="display: flex; justify-content: center; align-items: flex-start; flex-direction: row; margin-top: 20px;">
+<div style="display:inline-block; justify-content: center; align-items: flex-start; flex-direction: row; margin-top: 20px;">
     <div style="text-align: center;flex; justify-content: center; align-items: flex-start; flex-direction: row; margin-top: 20px;">
         <img src="https://github.com/user-attachments/assets/7f2d5248-8887-4461-a2ee-4d1539f16b66" alt="Pattern of life simulation data" style="width: 512px; height: 512px;">
         <p>The above chart presents the Pattern of life simulation data</p>
