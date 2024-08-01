@@ -1,10 +1,44 @@
 # The Pattern of Life Human Mobility Simulation (Demo Paper)
 
-- Comparision of POL with real world data: 
-<img src="https://github.com/user-attachments/assets/7f2d5248-8887-4461-a2ee-4d1539f16b66" alt="Description of Image" width="512" height="512">
-<br/>
+- Comparision of POL with real world data:
 
-<img src="https://github.com/user-attachments/assets/7f2d5248-8887-4461-a2ee-4d1539f16b66" alt="Description of Image" width="512" height="512">
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            margin-top: 20px;
+        }
+        .image-caption {
+            text-align: center;
+            margin: 0 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="image-caption">
+        <img src="https://github.com/user-attachments/assets/7f2d5248-8887-4461-a2ee-4d1539f16b66" alt="Description of Image" width="512" height="512">
+        <p>Pattern of life simulation data</p>
+    </div>
+    <div class="image-caption">
+        <img src="https://github.com/user-attachments/assets/7664d1e7-6dad-4336-8068-7d5605d9e3bb" alt="Description of Image" width="512" height="512">
+        <p>Travel survey realworld</p>
+    </div>
+</div>
+
+</body>
+</html>
+
 
 
 
