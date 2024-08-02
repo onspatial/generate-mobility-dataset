@@ -6,12 +6,16 @@
 
     <div style="display:inline-block; ">
         <img src="https://github.com/user-attachments/assets/7f2d5248-8887-4461-a2ee-4d1539f16b66" alt="Pattern of life simulation data" style="width: 400px; height: 400px;">
-        <p>The above chart presents the Pattern of life simulation data</p>
+        <p>Figure 1: The above chart presents the Pattern of life simulation data</p>
     </div>
     <div style="display:inline-block;">
         <img src="https://github.com/user-attachments/assets/7664d1e7-6dad-4336-8068-7d5605d9e3bb" alt="Travel survey realworld" style="width: 400px; height: 400px;">
-        <p>This is Travel survey that is drawn from realworld data</p>
+        <p>Figure 2: This is Travel survey that is drawn from realworld data</p>
     </div>
+
+Here we use the Chord Diagram to have an overall comparison of the simulated activities with the activities from US National Household Travel Survey  (https://nhts.ornl.gov/). The Chord Diagram shows the proportion of each type of trip between different types of activities. From the real-world travel survey, we reclassified the trip purposes into comparable groups. In our simulation, we considered the activities locations as home, workplaces, restaurants, and recreational sites; then, the Chord Diagram gives a global view of the generated trip flows with purpose and size. For these categories, we observe that the flows are quite similar to those observed in the travel survey: Both charts show that home is the most visited location followed by work. The flow from/to restaurants is overestimated in our simulation, but this can be attributed to not modeling “buy goods”'. A similar picture is seen for recreation, which is over-estimated in our simulation, but if we include “other errands”, we would get a similar picture as observed in the travel survey.    
+
+(P.S. The comparison is city based, which means we filter out the San Francisco city wide trips from the national household travel survey to validate. Also we can validate from other aspects like the distribution of travel time and distance, and trip frequency by person) 
 
 
 
