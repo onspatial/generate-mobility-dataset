@@ -1,4 +1,4 @@
-# The Pattern of Life Human Mobility Simulation (Demo Paper)
+# The Pattern of Life Human Mobility Simulation 
 
 - Comparision of POL with real world data:
 
